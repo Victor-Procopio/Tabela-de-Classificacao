@@ -1,0 +1,90 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+}  
+
+.container-imagem-fundo {    
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.container-imagem-fundo img {
+  width: 100%;
+  height: 100%;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.new-player {
+  margin: 10px 0;
+  padding: 20px 0;
+  color: white;
+  border-radius: 10px;
+  background-color: rgb(0,0,0,60%);
+  text-align: center;
+}
+
+.new-player input {
+  width: 150px;
+  height: 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  padding: 0 10px 0 0;
+  border: 2px solid white;
+  border-radius: 3px;
+  outline: none;
+}
+
+.new-player button {
+  width: 80px;
+  height: 28px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0;
+  border: 2px solid white;
+  border-radius: 3px;
+  outline: none;
+}
+
+.table {
+  margin: 0px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(0,0,0,60%);
+}
+
+table {
+  width: 100%;
+  color: white;
+  border-collapse: collapse;
+}
+
+th, tr, td {
+  border: solid 1px white;
+  color: white;
+  text-align: center;
+}
